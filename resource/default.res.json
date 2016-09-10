@@ -1,0 +1,50 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,superheroes_06_png,superheroes_07_png,superheroes_08_png,superheroes_09_png",
+			"name": "preload"
+		},
+		{
+			"keys": "hero-01, hero-02, hero-03, hero-04, bonus.mp3",
+			"name": "heroes"
+		}
+	],
+	"resources": [
+		{
+			"name": "bg_jpg",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "egret_icon_png",
+			"type": "image",
+			"url": "assets/egret_icon.png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "hero-01",
+			"type": "image",
+			"url": "assets/superheroes_06.png"
+		},
+		{
+			"name": "hero-02",
+			"type": "image",
+			"url": "assets/superheroes_09.png"
+		},
+		{
+			"name": "hero-03",
+			"type": "image",
+			"url": "assets/superheroes_07.png"
+		},
+		{
+			"name": "hero-04",
+			"type": "image",
+			"url": "assets/superheroes_08.png"
+		},
+		{ "name":"bonus.mp3","type":"sound","url":"assets/bonus.wav" } 
+	]
+}
